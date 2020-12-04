@@ -15,7 +15,7 @@ This is a preview of some basic Android emulation functionality on the M1. There
 
 ## How to use
 
-Go to the Github releases page, download a .dmg, drag to the Applications folder, and run. First few times it starts up it will take a while to show up, but subsequent launches will be faster.
+Go to the Github releases page, download a .dmg, drag to the Applications folder, and run. You'll first need to right click the app icon and select Open and then skip past the developer identity verification step (we are working on providing official identity info). The first few times it starts up it will take a while to show up, but subsequent launches will be faster.
 
 If you've installed Android Studio and Android SDK and `adb` is available, the emulator should be visible from Studio and work (deploy built apps, debug apps, etc).
 
