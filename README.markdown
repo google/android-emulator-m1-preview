@@ -5,7 +5,6 @@ This is a preview of some basic Android emulation functionality on the M1. There
 ## Known issues
 
 - Webview doesn't work
-- No sound
 - No device skins
 - Video codecs not working
 - 32 bit ARM apps won't work
@@ -15,7 +14,7 @@ This is a preview of some basic Android emulation functionality on the M1. There
 
 ## How to use
 
-This only works on M1 Apple Silicon Macs. M1 (or equivalently capable) SoCs are required; note that this does not work on DTKs as they do not support ARM64 on ARM64 hardware virtualization via Hypevisor.framework. However, we have plans to add support there as well via Virtualization.framework.
+This only works on M1 Apple Silicon Macs. M1 (or equivalently capable) SoCs are required; note that this does not work on DTKs as they do not support ARM64 on ARM64 hardware virtualization via Hypevisor.framework.
 
 Go to the Github [releases](https://github.com/741g/android-emulator-m1-preview/releases) page, download a .dmg, drag to the Applications folder, and run. You'll first need to right click the app icon and select Open and then skip past the developer identity verification step (we are working on providing official identity info). The first few times it starts up it will take a while to show up, but subsequent launches will be faster.
 
