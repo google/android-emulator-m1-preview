@@ -4,7 +4,7 @@ This is a preview of some basic Android emulation functionality on the M1. There
 
 ## Known issues
 
-- Webview doesn't work
+- Webview doesn't work in the AOSP version, but works in the Google APIs version [preview v3](https://github.com/google/android-emulator-m1-preview/releases/tag/0.3). However, Chrome doesn't work.
 - No device skins
 - Video codecs not working
 - 32 bit ARM apps won't work
