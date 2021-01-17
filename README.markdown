@@ -16,7 +16,7 @@ This is a preview of some basic Android emulation functionality on the M1. There
 
 This only works on M1 Apple Silicon Macs. M1 (or equivalently capable) SoCs are required; note that this does not work on DTKs as they do not support ARM64 on ARM64 hardware virtualization via Hypevisor.framework.
 
-Go to the Github [releases](https://github.com/741g/android-emulator-m1-preview/releases) page, download a .dmg, drag to the Applications folder, and run. You'll first need to right click the app icon and select Open and then skip past the developer identity verification step (we are working on providing official identity info). The first few times it starts up it will take a while to show up, but subsequent launches will be faster.
+Go to the Github [releases](https://github.com/google/android-emulator-m1-preview/releases) page, download a .dmg, drag to the Applications folder, and run. You'll first need to right click the app icon and select Open and then skip past the developer identity verification step (we are working on providing official identity info). The first few times it starts up it will take a while to show up, but subsequent launches will be faster.
 
 If you've installed Android Studio and Android SDK and `adb` is available, the emulator should be visible from Studio and work (deploy built apps, debug apps, etc).
 
