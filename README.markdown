@@ -1,3 +1,6 @@
+# Note: No longer needed
+Support for downloading the M1-based emulator was added to SDK Manager, so it's not necessary to go to the Github releases page to download a standalone .app anymore. In AVD Manager go to the Other Images tab as by default it doesn't show the ARM64 images.
+
 # Android Emulator M1 Preview
 
 This is a preview of some basic Android emulation functionality on the M1. There are still many issues, but apps work at a basic level. To be updated soon with more fixes. The release tag corresponds to this commit: <https://android.googlesource.com/platform/external/qemu/+/aca144a9e9264b11c2d729096af90d695d01455d>
